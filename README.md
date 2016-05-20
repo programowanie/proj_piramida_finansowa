@@ -8,4 +8,4 @@
 
 *To już koniec wiersza*
 
-
+*Szkoda go, fajny był*
