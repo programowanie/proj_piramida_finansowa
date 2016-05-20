@@ -1,2 +1,6 @@
-**Poeta rzekł lat temu wiele**
-*Szukajcie zawsze, gdzie Wasze pościele!*
+**Gruby ten tytuł wiersza**
+*Wiersz*
+*Dalej wiersz*
+*Więcej wiersza*
+*To już koniec wiersza*
+
