@@ -6,6 +6,8 @@
 
 *Brak edukacji*
 
+*Zaduch*
+
 *Chłopski los*
 
 *Naiwność*
