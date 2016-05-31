@@ -24,6 +24,6 @@
 
 
 **Projekt Piramida Finansowa**
-Założeniem projektu jest zasymulowanie różnych typów piramidy finansowej na przykładzie małego miasteczka.
+ma zasymulować różne typy piramidy finansowej na przykładzie małego państwa na wyspie pośrodku Pacyfiku.
 
 Potem powiem, co i jak trzeba z tym zrobić :P
