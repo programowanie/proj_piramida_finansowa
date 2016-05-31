@@ -1,11 +1,19 @@
-**Gruby ten tytuł wiersza**
+**Piramida szał natura**
 
-*Wiersz*
+*Małomiejskie problemy*
 
-*Dalej wiersz*
+*Pragnienie zarobku*
 
-*Więcej wiersza*
+*Brak edukacji*
 
-*To już koniec wiersza*
+*Chłopski los*
 
-*Szkoda go, fajny był*
+*Naiwność*
+
+*Posłuszeństwo*
+
+*500 sąsiadów*
+
+*Brak skrupułów*
+
+*Piramida finansowa*
