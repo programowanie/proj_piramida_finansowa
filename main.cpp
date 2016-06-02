@@ -1,4 +1,4 @@
-//This code contains poem by unknown but talented Polish writer. Please read it carefully before assessment.
+//This code contains a poem written by an unknown but talented Polish writer. Please read it carefully before assessment.
 #include <stdio.h>
 #include <cstdlib>
 #include <iostream>
@@ -10,7 +10,7 @@
 
 using namespace std;
 
-void loss()
+void loss()//
 {
 	cout << endl << endl << "$$$$$$$$$$$$$$$$$$$$$$$$$$$"
 	       << endl << "Te dolary powyzej nie sa dla Ciebie, bo spoleczenstwo okazalo sie za madre na Twoja piramide finansowa." << endl;
@@ -22,36 +22,39 @@ void ad(int degree, int amountOut, int amountIn, int population)
 	       << "Masz dosc pracy od 7 do 23?" << endl
 	       << "Meczy Cie rutyna dnia codziennego?" << endl
 	       << "Chcesz zarobic, by wkurzyc sasiada?" << endl
-	       << "A moze wszystkich " << population << " sasiadow?" << endl << endl
+	       << "A moze wszystkich " << population-1 << " sasiadow?" << endl << endl
 	       << "Oferta firmy R.Obbery Corp. jest wlasnie dla Ciebie!" << endl
 	       << "Za jedyne " << amountIn << "$ wplaty wlasnej zapewnimy Ci staly dochod roczny w wysokosci " << amountOut << "$!" << endl
 	       << "Bez ryzyka, bez formalnosci, po cichu, by Urzad Skarbowy sie nie dowiedzial!" << endl
 	       << "Z oferty moga korzystac osoby w wieku od 5 do 30 lat" << endl
-	       << "Zadzwon juz dzis - 544 342 678!" << endl << endl << endl;
-	usleep(15000000);
+	       << "Zadzwon juz dzis - 544 342 678!" << endl << endl << endl
+	       << "Aby kontynuowac, nacisnij ENTER." << endl;
+	getchar();
+	system("clear");
 }
 
-int main(int argc, char** argv)
+int main(int argc, char** argv)// "Piramida szał natura"
 {
 	system("clear");
 	srand(time(NULL));
-	int newFools = 0, presentIterator = 1;
+	int newFools = 0, presentIterator = 1;// "Małomiejskie problemy"
 	int degree = 4;
 	int amountIn = 1000;
 	int amountOut = 50;
-	int startingMoney = 500;
-	unsigned long long int population = 50000;
-	population = atoi(argv[1]); degree = atoi(argv[2]); amountIn = atoi(argv[3]); amountOut = atoi(argv[4]); startingMoney = atoi(argv[5]);
+	int startingMoney = 500;// "Pragnienie zarobku"
+	int naiveBound = 3000;
+	unsigned long long int population = 50000;// "n-1 sąsiadów"
+	population = atoi(argv[1]); degree = atoi(argv[2]); amountIn = atoi(argv[3]); amountOut = atoi(argv[4]); startingMoney = atoi(argv[5]); naiveBound = atoi(argv[6]);
 
-	Citizen Villagers[population];
+	Citizen Villagers[population];// "Chłopski los"
 	Pyramid R_ObberyCorp;
 //------------------------------------------------------------------------------------------------
-	ad(degree, amountOut, amountIn, population);
-//-------------------------------------------------------------------------------------------------
+	ad(degree, amountOut, amountIn, population);// "Posłuszeństwo"
+//------------------------------------------------------------------------------------------------
 	R_ObberyCorp.modifyAmountIn(amountIn);
 	R_ObberyCorp.modifyAmountOut(amountOut);
 
-//pierwszy dzień
+//FIRST DAY
 	for (int i = 0; i < population; i++)
 	{
 		Villagers[i].modifyAge(rand()%30+1);
@@ -63,7 +66,7 @@ int main(int argc, char** argv)
 
 
 
-//kolejne dni
+//NEXT DAYS
 	bool OK = true;
 	while(OK)
 	{
@@ -72,19 +75,17 @@ int main(int argc, char** argv)
 		R_ObberyCorp.modifyMoney(R_ObberyCorp.showIncome());
 		R_ObberyCorp.report();
 		
-
-
 		for (presentIterator = 0; presentIterator < population && presentIterator < R_ObberyCorp.showRange(); presentIterator++)
 		{
 			if (!(Villagers[presentIterator].checkParticipation()) && Villagers[presentIterator].showAge()>5 && Villagers[presentIterator].checkLiving())
-				if (Villagers[presentIterator].showFaith() > 3000)
+				if (Villagers[presentIterator].showFaith() > naiveBound)
 				{
 					Villagers[presentIterator].modifyParticipation(1);
 					newFools++;
 				}
 		}
 
-
+		//calculations for next day
 		R_ObberyCorp.nextYear();
 		R_ObberyCorp.modifyFools(R_ObberyCorp.showFools() + newFools);
 		for (int i = 0; i < population; i++)
@@ -105,6 +106,9 @@ int main(int argc, char** argv)
 			R_ObberyCorp.modifyRange(population);
 		else
 			R_ObberyCorp.modifyRange(R_ObberyCorp.showRange()*degree);
+
+		cout << "Aby kontynuowac, nacisnij ENTER." << endl;
+		getchar();
 		
 	}
 

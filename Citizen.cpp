@@ -6,17 +6,20 @@ using namespace std;
 class Citizen
 {
 private:
-	const int education = 0;
+
+	const int education = 0;// "Brak edukacji"
 	string name = " ";
 	int money = 0;
 	int age = 1;
 	int faith = 0;
 	bool participation = false;
-	bool alive = true;
+	bool alive = true;// "Zaduch"
+
 public:
+
 	void calculateFaith()
 	{
-		faith = 10500 - money + rand()%5000;
+		faith = 10500 - money + rand()%5000;// "Naiwność od 0 do 15500"
 	}
 
 	void modifyAge(int newAge)
@@ -66,7 +69,7 @@ public:
 	
 	bool checkLiving()
 	{
-		if (age > 30)  {alive = false; return false;};
+		if (age > 30)  {alive = false; return false;};// "Śmierć."
 	}
 	
 };

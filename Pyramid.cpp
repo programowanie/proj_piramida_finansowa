@@ -3,11 +3,11 @@
 
 using namespace std;
 
-class Pyramid
+class Pyramid// "Piramida finansowa"
 {
 private:
 	int money = 0;
-	int numberOfFools = 0;
+	int numberOfFools = 0;// "Brak skrupułów"
 	int numberOfFoolsYesterday = 0;
 	int income = 0;
 	int amountIn = 0;
