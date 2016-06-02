@@ -25,6 +25,10 @@
 *Śmierć.*
 
 
+
+
+
+
 ######**Projekt Piramida Finansowa**
 ma zasymulować różne typy piramidy finansowej na przykładzie małego państwa na wyspie pośrodku Pacyfiku.
 
