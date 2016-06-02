@@ -35,7 +35,9 @@ W piramidzie finansowej mogą brać udział obywatele w wieku powyżej 5 lat (do
 Niektóre dane, jak zamożność czy powodzenie werbunku do piramidy, są losowe.
 Na inne dane można (w pewnym stopniu w niektórych przypadkach) wpływać przez argumenty wiersza poleceń.
 Schemat:
+
 >./piramida_finansowa <populacja> <stopień> <wpłata> <zwrot> <pieniądze początkowe> <granica naiwności>
+
 Gdzie:
 *populacja* oznacza rozmiar społeczeństwa do badania, np. 7000.
 *stopień* oznacza liczbę osób poinformowanych o piramidzie przez każdego członka. Nie jest to równoważne z przystąpieniem nowej osoby do piramidy finansowej. Przykładowy stopień to 6.
