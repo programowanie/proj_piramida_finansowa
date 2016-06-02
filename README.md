@@ -29,7 +29,7 @@
 ####**Projekt Piramida Finansowa**
 ma zasymulować różne typy piramidy finansowej na przykładzie małego państwa na wyspie pośrodku Pacyfiku.
 
-Projekt opiera się na uproszonym modelu społeczeństwa, w którym każdy ma jakąś sumę pieniędzy w kieszeni i może nią dysponować oraz wpływa ona na jego postrzeganie rzeczywistości (im więcej ma pieniędzy, tym mniej łatwowierny jest).
+Projekt opiera się na uproszonym modelu społeczeństwa, w którym każdy ma jakąś sumę pieniędzy w kieszeni i może nią dysponować oraz wpływa ona na jego postrzeganie rzeczywistości (im więcej ma pieniędzy, tym jest mniej łatwowierny).
 
 W piramidzie finansowej mogą brać udział obywatele w wieku powyżej 5 lat (do 30, gdyż w wieku 30 lat obywatel automatycznie umiera).
 
