@@ -10,17 +10,17 @@
 
 *Chłopski los*
 
-*Naiwność od 1 do 100*
+*Naiwność od 0 do 15500*
 
 *Posłuszeństwo*
 
-*n sąsiadów*
+*n-1 sąsiadów*
 
 *Brak skrupułów*
 
 *Piramida finansowa*
 
->tutaj będzie kod
+>./piramida_finansowa 5 1000 50 500
 
 *Śmierć.*
 
