@@ -51,7 +51,7 @@ Gdzie:
 
 - `pieniądze początkowe` to suma pieniędzy gwarantowanych dla każdego obywatela. Każdy dodatkowo dostaje losową sumę z przedziału <0, 9999>. Suma pieniędzy na koncie wpływa na naiwność obywatela. Przykładowa suma początkowa to 500.
 
-- `granica naiwności` to liczba, która decyduje o tym, czy osoba przystępuje do piramidy finansowej, czy nie. Im większa liczba, tym mniej osób do niej przystępuje. Maksymalna wartość to 15499, która jest niemal niemożliwa do osiągnięcia (piramida nie zadziała). Przykładowa wartość to 4000.
+- `granica naiwności` to liczba, która decyduje o tym, czy osoba przystępuje do piramidy finansowej, czy nie. Im większa liczba, tym mniej osób do niej przystępuje. Dla zbyt dużych wartości piramida może nie zadziałać. Przykładowa wartość to 4000.
 
 #####Przykładowe sensowne dane
 
