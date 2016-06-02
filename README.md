@@ -35,7 +35,7 @@ W piramidzie finansowej mogą brać udział obywatele w wieku powyżej 5 lat (do
 
 Niektóre dane, jak zamożność czy powodzenie werbunku do piramidy, są losowe.
 Na inne dane można (w pewnym stopniu w niektórych przypadkach) wpływać przez argumenty wiersza poleceń.
-######Schemat:
+#####Schemat:
 
 >./piramida_finansowa *populacja* *stopień* *wpłata* *zwrot* *pieniądze początkowe* *granica naiwności*
 
@@ -53,3 +53,6 @@ Gdzie:
 
 *granica naiwności* to liczba, która decyduje o tym, czy osoba przystępuje do piramidy finansowej, czy nie. Im większa liczba, tym mniej osób do niej przystępuje. Maksymalna wartość to 15499, która jest niemal niemożliwa do osiągnięcia (piramida nie zadziała). Przykładowa wartość to 4000.
 
+#####Przykładowe sensowne dane
+
+>./piramida_finansowa 50000 5 1000 50 500 3000
