@@ -36,7 +36,7 @@ Niektóre dane, jak zamożność czy powodzenie werbunku do piramidy, są losowe
 Na inne dane można (w pewnym stopniu w niektórych przypadkach) wpływać przez argumenty wiersza poleceń.
 Schemat:
 
->./piramida_finansowa <populacja> <stopień> <wpłata> <zwrot> <pieniądze początkowe> <granica naiwności>
+>./piramida_finansowa *populacja* *stopień* *wpłata* *zwrot* *pieniądze początkowe* *granica naiwności*
 
 Gdzie:
 
