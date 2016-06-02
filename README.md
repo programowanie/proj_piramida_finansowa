@@ -1,3 +1,5 @@
+#Adam Guszkowski
+
 ###**Piramida szał natura**
 
 *Małomiejskie problemy*
