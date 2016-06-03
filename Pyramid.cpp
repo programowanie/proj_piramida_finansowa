@@ -23,9 +23,9 @@ public:
 			 << "   Wzrost liczby naciagnietych: " << numberOfFools - numberOfFoolsYesterday << endl
 			 << "   Suma wplywow: " << amountIn * (numberOfFools - numberOfFoolsYesterday) << endl
 			 << "   Suma wyplat: " << amountOut*(numberOfFoolsYesterday) << endl
-			 << "   Zarobek: " << income << endl
-			 << "   Procentowy wzrost naciagnietych " << 100.0*(numberOfFools)/(numberOfFoolsYesterday)-100.0 << "%\n"
-			 << "   Probowalismy naciagnac do tej pory " << range << " osob." << endl << endl;
+			 << "   Zarobek: " << income << endl;
+		if (year > 0) cout  << "   Procentowy wzrost naciagnietych " << 100.0*(numberOfFools)/(numberOfFoolsYesterday)-100.0 << "%\n" << endl;
+		cout << "   Probowalismy naciagnac do tej pory " << range << " osob." << endl << endl;
 	}
 
 	void nextYear()
