@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Pyramid// "Piramida finansowa"
+class Pyramid// "Piramida finansowa" 
 {
 private:
 	int money = 0;

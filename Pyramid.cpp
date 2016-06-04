@@ -13,7 +13,7 @@ void Pyramid::report()
 		 << "   Zarobek: " << income << endl;
 	if (year > 0) cout  << "   Procentowy wzrost naciagnietych " << 100.0*(numberOfFools)/(numberOfFoolsYesterday)-100.0 << "%\n";
 	cout << "   Probowalismy naciagnac do tej pory " << range << " osob." << endl << endl;
-	}
+}
 
 void Pyramid::calculateIncome()
 {

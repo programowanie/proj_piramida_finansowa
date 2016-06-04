@@ -18,7 +18,7 @@ private:
 
 public:
 	void calculateFaith();
-	
+
 	void modifyAge(int newAge)
 	{
 		age = newAge;
@@ -64,11 +64,8 @@ public:
 		return participation;
 	}
 	
-	bool checkLiving()
-	{
-		if (age > 30)  {alive = false; return false;};// "Śmierć."
-	}
-	
+	bool checkLiving();
+
 };
 
 

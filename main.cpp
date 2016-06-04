@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, char** argv)// "Piramida szał natura"
 {
-	system("clear");
+	system("clear"); 
 	srand(time(NULL));
 	int newFools = 0, presentIterator = 1;// "Małomiejskie problemy"
 	int degree = 4;
